@@ -39,7 +39,7 @@
         .section-B{
             height: auto!important;
             padding-bottom: 30px;
-            background-color:#75BF7A;
+            background-color:#a5a67e;
             
             
             
@@ -67,16 +67,22 @@
         background-color: khaki;
         margin-top: 200px!important;
     }
+    .section-c{
+        flex-direction: row-reverse;
+        background-color: deeppink;
+    }
+    
     .top-row{
        
-        background-color: chartreuse;
-        margin-top: 500px!important;
+        background-color: rgb(255, 0, 0);
+        margin-top: 0px!important;
         height: auto!important;
+        padding-top: 0pxx;
     }
     .bottom-row{
        
-        background-color: rgb(255, 0, 8);
-        margin-top: 500px!important;
+        background-color: rgb(38, 0, 255);
+        margin-top: 2000px!important;
         height: auto!important;
     }
     .box-text1{text-align: center!important;}
@@ -85,10 +91,18 @@
     .elipse{
         position:relative;
         margin: 0px auto!important;
-        margin-top: -1350px!important;
-        margin-bottom: 0cap;
+        margin-top: -900px!important;
         opacity: 30%;
+        width: 400px!important;
+        height: 400px!important;
+        border-radius: 200px!important;
+        
+        
 
+    }
+    .section-D{
+        text-align: center;
+        
     }
     
 
@@ -297,11 +311,27 @@ padding-top: 70px;
 
     }
     .section-D{
-        display: flex;
-        background-color:#FFFFFF;
-        ;
+        
+        background-color:#ffffff;
+        width: 900px!important;
+       
+     
+        
+    }
+    .left-col>h1{
+        padding-top: 100px;
+        margin-left: 150px;
     }
 
+    .left-col>h2{
+        margin-top:-70px;
+        padding-left:200px
+    }
+
+    .left-col>p{
+        padding-left:150px;
+    }
+  
 
 
 
