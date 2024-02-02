@@ -64,50 +64,91 @@
     .card-box{
         margin: 0px auto !important;
         text-align: center!important;
-        background-color: khaki;
-        margin-top: 200px!important;
+        background-color: rgb(255, 255, 255);
+        margin-top: 50px!important;
     }
     .section-c{
         flex-direction: row-reverse;
-        background-color: deeppink;
+        /* background-color: deeppink; */
     }
     
     .top-row{
        
-        background-color: rgb(255, 0, 0);
-        margin-top: 0px!important;
-        height: auto!important;
+        /* background-color: rgb(255, 0, 0); */
+        
+        margin-top:550px!important;
+        margin-bottom: 100px!important;
+        /* height: auto!important; */
         padding-top: 0pxx;
     }
     .bottom-row{
        
-        background-color: rgb(38, 0, 255);
-        margin-top: 2000px!important;
-        height: auto!important;
+        /* background-color: rgb(38, 0, 255); */
+        /* margin-top:2000px!important; */
+        margin-bottom: 20px!important;
+        /* height: auto!important; */
     }
     .box-text1{text-align: center!important;}
     .box-text2{text-align: center!important;}
     .round{margin: 05px auto!important;}
     .elipse{
-        position:relative;
-        margin: 0px auto!important;
-        margin-top: -900px!important;
-        opacity: 30%;
+        position:absolute;
+        left:0;
+        right:0;
+        margin-top: -1200px!important;
+        /* opacity: 30%; */
         width: 400px!important;
         height: 400px!important;
         border-radius: 200px!important;
-        
-        
-
-    }
+        }
+       
     .section-D{
-        text-align: center;
+        text-align: center!important;
+        height: auto!important;
+        
+    }
+     /* .left-col{
+       
+        background-color: #0bf022;
+    }  */
+    
+
+    .left-col h1{
+       
+        
+        /* background-color: white; */
+        margin: 0px auto!important;
+        text-align: center!important;
+        /* margin-top: -70px!important; */
+        height: 40px!important;
+        padding-top: 0px!important;
+       
+    }
+          
+    .bottom-head2{
+        margin: 0px auto!important;
+        margin-top: 20px!important;     
+        /* background-color: darkblue; */
+        text-align: center!important;
+        padding-left: 0px!important;
+        
         
     }
     
-
+    .bottom-p{
+    /* background-color: yellow; */
+    margin-top: 20px!important;  
+    text-align: center!important;
+    padding-left:0px!important;
+    }  
 
 }
+
+
+    
+
+
+
     
 
     
@@ -312,8 +353,8 @@ padding-top: 70px;
     }
     .section-D{
         
-        background-color:#ffffff;
-        width: 900px!important;
+        background-color:;
+        width: 1000px!important;
        
      
         
